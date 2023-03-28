@@ -1,0 +1,41 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(water.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+h4{
+    margin-bottom: 20px;
+    color: white;
+}
+
+h5{
+    font-size: 20px;
+    color: white;
+}
+
+input {
+    font-size: 18px;
+    padding: 8px;
+    border: 2px solid #471a1a;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 8px 16px;
+    background-color: #3836c9;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
