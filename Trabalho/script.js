@@ -18,9 +18,18 @@ function calcular() {
         document.getElementById("resultado").textContent = "Seu IMC é: " + imc.toFixed(2) + (" Classificação: Obesidade grave");
     }
     
-    
-    
-    
-    
-    
 }
+
+let mudarcor1 = document.getElementById("evento")
+
+mudarcor1.addEventListener("mouseover", () => {
+    mudarcor1.style.background = "#45726e"
+})
+
+mudarcor1.addEventListener("click", () => {
+    mudarcor1.style.background = "white"
+})
+
+mudarcor1.addEventListener("mouseout", () => {
+    mudarcor1.style.background = "#50a199"
+})
